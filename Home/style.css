@@ -61,6 +61,13 @@ p {
   top: 85px;
 }
 
+
+.link1:hover{text-decoration:underline; color: #2f86d6;}
+.link2:hover{text-decoration:underline; color: #2f86d6;}
+.link3:hover{text-decoration:underline; color: #2f86d6;}
+.link4:hover{text-decoration:underline; color: #2f86d6;} 
+
+
 .link1,
 .link2,
 .link3,
