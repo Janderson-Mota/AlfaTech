@@ -350,9 +350,10 @@ tr {
 }
 
 /* seção anucio 2 */
+
 .anuncio2 {
   width: 100vw;
-  height: 100px;
+  height: 150px;
   position: relative;
   background-color: #2f86d6;
   color: #fff;
