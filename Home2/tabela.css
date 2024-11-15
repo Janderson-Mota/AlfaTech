@@ -6,16 +6,15 @@
   text-decoration: none;
 }
 
-
 /* CELULARES */
-@media (min-width: 425px) and ( max-width: 767px){
+@media (min-width: 425px) and (max-width: 767px) {
   body {
     background-color: #fff;
     overflow: auto scroll;
   }
-  
+
   /* seção topo */
-  
+
   .topo {
     width: 100vw;
     height: 200px;
@@ -23,14 +22,14 @@
     background-color: #2f86d6;
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.342);
   }
-  
+
   .container {
     width: 500px;
     height: 200px;
     position: absolute;
     left: 250px;
   }
-  
+
   .logo img {
     height: 100px;
     width: 100px;
@@ -38,26 +37,26 @@
     left: 90px;
     bottom: 50px;
   }
-  
+
   .logo h1,
   p {
     display: inline;
     position: absolute;
   }
-  
+
   .logo h1 {
     bottom: 70px;
     right: 100px;
     font-size: 40px;
     color: #000000;
   }
-  
+
   .logo p {
     bottom: 60px;
     right: 82px;
     color: #ffffff;
   }
-  
+
   .nav {
     width: 510px;
     height: 30px;
@@ -65,7 +64,7 @@
     right: 325px;
     top: 85px;
   }
-  
+
   .link1:hover {
     text-decoration: underline;
     color: #000000ad;
@@ -82,7 +81,7 @@
     text-decoration: underline;
     color: #000000ad;
   }
-  
+
   .link1,
   .link2,
   .link3,
@@ -91,9 +90,9 @@
     color: #ffffff;
     font-weight: bold;
   }
-  
+
   /*inicio  tabela 2 */
-  
+
   .secao1 {
     width: 100vw;
     height: 1000px;
@@ -103,72 +102,70 @@
     justify-content: center;
     align-items: center;
   }
-  
+
   .tabela {
     width: 1230px;
     height: 600px;
     box-shadow: 0px 0px 10px 4px #2f86d6;
     border-collapse: collapse;
   }
-  
+
   .tabela table,
   td,
   th,
   tr {
     border: 1px solid rgb(218, 218, 218, 0.55);
   }
-  
+
   table {
     width: 1200px;
     height: 600px;
   }
-  
+
   th {
     width: 100px;
     height: 100px;
     position: relative;
   }
-  
+
   tr {
     width: 50px;
     height: 50px;
   }
-  
-  
-  
+
   .tabela h2 {
     font-size: 35px;
     margin-top: 25px;
   }
-  
+
   .tabela p {
     color: rgba(121, 120, 120, 0.55);
   }
-  
+
   .alin1 {
     position: absolute;
     left: 90px;
     top: 18px;
   }
-  
+
   .alin2 {
     position: absolute;
     top: 18px;
     left: 60px;
   }
-  
+
   .alin3 {
     position: absolute;
     top: 18px;
     left: 60px;
   }
-  
+
   .alin4 {
     position: absolute;
     top: 18px;
     left: 75px;
   }
-  
+
   .azul {
     background-color: #2f86d6;
     width: 20px;
@@ -177,13 +174,13 @@
     color: #2f86d6;
     margin-left: 100px;
   }
-  
+
   .cor {
     background-color: #2f86d61c;
   }
-  
+
   /* inicio da seção 4 */
-  
+
   .infor4 {
     width: 100%;
     height: 220px;
@@ -193,41 +190,41 @@
     justify-content: center;
     align-items: center;
   }
-  
+
   .nuu {
     width: 1200px;
     height: 130px;
     position: absolute;
   }
-  
+
   .infor4 > .nuu > h3 {
     text-align: center;
     font-size: 25px;
     color: black;
   }
-  
+
   .infor4 span {
     font-weight: bold;
     color: #2f86d6;
   }
-  
+
   .infor4 img {
     width: 50px;
     height: 50px;
     padding: 10px;
     margin-top: 5px;
   }
-  
+
   .infor4 img:hover {
     padding: 1px;
   }
-  
+
   .posit {
     margin-left: 500px;
   }
-  
+
   /* rodape */
-  
+
   .rodape {
     width: 100vw;
     height: 50px;
@@ -236,17 +233,18 @@
     font-size: 15px;
     color: #ffffff77;
     font-weight: 600px;
-  }}
+  }
+}
 
 /* TABLET */
-@media (min-width: 768px) and (max-width: 1023px){
+@media (min-width: 768px) and (max-width: 1023px) {
   body {
     background-color: #fff;
     overflow: auto scroll;
   }
-  
+
   /* seção topo */
-  
+
   .topo {
     width: 100vw;
     height: 200px;
@@ -254,14 +252,14 @@
     background-color: #2f86d6;
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.342);
   }
-  
+
   .container {
     width: 500px;
     height: 200px;
     position: absolute;
     left: 250px;
   }
-  
+
   .logo img {
     height: 100px;
     width: 100px;
@@ -269,26 +267,26 @@
     left: 90px;
     bottom: 50px;
   }
-  
+
   .logo h1,
   p {
     display: inline;
     position: absolute;
   }
-  
+
   .logo h1 {
     bottom: 70px;
     right: 100px;
     font-size: 40px;
     color: #000000;
   }
-  
+
   .logo p {
     bottom: 60px;
     right: 82px;
     color: #ffffff;
   }
-  
+
   .nav {
     width: 510px;
     height: 30px;
@@ -296,7 +294,7 @@
     right: 325px;
     top: 85px;
   }
-  
+
   .link1:hover {
     text-decoration: underline;
     color: #000000ad;
@@ -313,7 +311,7 @@
     text-decoration: underline;
     color: #000000ad;
   }
-  
+
   .link1,
   .link2,
   .link3,
@@ -322,9 +320,9 @@
     color: #ffffff;
     font-weight: bold;
   }
-  
+
   /*inicio  tabela 2 */
-  
+
   .secao1 {
     width: 100vw;
     height: 1000px;
@@ -334,72 +332,70 @@
     justify-content: center;
     align-items: center;
   }
-  
+
   .tabela {
     width: 1230px;
     height: 600px;
     box-shadow: 0px 0px 10px 4px #2f86d6;
     border-collapse: collapse;
   }
-  
+
   .tabela table,
   td,
   th,
   tr {
     border: 1px solid rgb(218, 218, 218, 0.55);
   }
-  
+
   table {
     width: 1200px;
     height: 600px;
   }
-  
+
   th {
     width: 100px;
     height: 100px;
     position: relative;
   }
-  
+
   tr {
     width: 50px;
     height: 50px;
   }
-  
-  
-  
+
   .tabela h2 {
     font-size: 35px;
     margin-top: 25px;
   }
-  
+
   .tabela p {
     color: rgba(121, 120, 120, 0.55);
   }
-  
+
   .alin1 {
     position: absolute;
     left: 90px;
     top: 18px;
   }
-  
+
   .alin2 {
     position: absolute;
     top: 18px;
     left: 60px;
   }
-  
+
   .alin3 {
     position: absolute;
     top: 18px;
     left: 60px;
   }
-  
+
   .alin4 {
     position: absolute;
     top: 18px;
     left: 75px;
   }
-  
+
   .azul {
     background-color: #2f86d6;
     width: 20px;
@@ -408,13 +404,13 @@
     color: #2f86d6;
     margin-left: 100px;
   }
-  
+
   .cor {
     background-color: #2f86d61c;
   }
-  
+
   /* inicio da seção 4 */
-  
+
   .infor4 {
     width: 100%;
     height: 220px;
@@ -424,41 +420,41 @@
     justify-content: center;
     align-items: center;
   }
-  
+
   .nuu {
     width: 1200px;
     height: 130px;
     position: absolute;
   }
-  
+
   .infor4 > .nuu > h3 {
     text-align: center;
     font-size: 25px;
     color: black;
   }
-  
+
   .infor4 span {
     font-weight: bold;
     color: #2f86d6;
   }
-  
+
   .infor4 img {
     width: 50px;
     height: 50px;
     padding: 10px;
     margin-top: 5px;
   }
-  
+
   .infor4 img:hover {
     padding: 1px;
   }
-  
+
   .posit {
     margin-left: 500px;
   }
-  
+
   /* rodape */
-  
+
   .rodape {
     width: 100vw;
     height: 50px;
@@ -467,17 +463,18 @@
     font-size: 15px;
     color: #ffffff77;
     font-weight: 600px;
-  }}
+  }
+}
 
 /* NOTEBOOK */
-@media (min-width: 1024px) and (max-width: 1439px){
+@media (min-width: 1024px) and (max-width: 1439px) {
   body {
     background-color: #fff;
     overflow: auto scroll;
   }
-  
+
   /* seção topo */
-  
+
   .topo {
     width: 100vw;
     height: 200px;
@@ -485,14 +482,14 @@
     background-color: #2f86d6;
     box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.342);
   }
-  
+
   .container {
     width: 500px;
     height: 200px;
     position: absolute;
     left: 60px;
   }
-  
+
   .logo img {
     height: 100px;
     width: 100px;
@@ -500,26 +497,26 @@
     left: 90px;
     bottom: 50px;
   }
-  
+
   .logo h1,
   p {
     display: inline;
     position: absolute;
   }
-  
+
   .logo h1 {
     bottom: 70px;
     right: 100px;
     font-size: 40px;
     color: #000000;
   }
-  
+
   .logo p {
     bottom: 60px;
     right: 82px;
     color: #ffffff;
   }
-  
+
   .nav {
     width: 510px;
     height: 30px;
@@ -527,7 +524,7 @@
     right: 150px;
     top: 85px;
   }
-  
+
   .link1:hover {
     text-decoration: underline;
     color: #000000ad;
@@ -544,7 +541,7 @@
     text-decoration: underline;
     color: #000000ad;
   }
-  
+
   .link1,
   .link2,
   .link3,
@@ -553,9 +550,9 @@
     color: #ffffff;
     font-weight: bold;
   }
-  
+
   /*inicio  tabela 2 */
-  
+
   .secao1 {
     width: 100vw;
     height: 1000px;
@@ -565,72 +562,70 @@
     justify-content: center;
     align-items: center;
   }
-  
+
   .tabela {
     width: 1230px;
     height: 600px;
     box-shadow: 0px 0px 10px 4px #2f86d6;
     border-collapse: collapse;
   }
-  
+
   .tabela table,
   td,
   th,
   tr {
     border: 1px solid rgb(218, 218, 218, 0.55);
   }
-  
+
   table {
     width: 1200px;
     height: 600px;
   }
-  
+
   th {
     width: 100px;
     height: 100px;
     position: relative;
   }
-  
+
   tr {
     width: 50px;
     height: 50px;
   }
-  
-  
-  
+
   .tabela h2 {
     font-size: 35px;
     margin-top: 25px;
   }
-  
+
   .tabela p {
     color: rgba(121, 120, 120, 0.55);
   }
-  
+
   .alin1 {
     position: absolute;
     left: 90px;
     top: 18px;
   }
-  
+
   .alin2 {
     position: absolute;
     top: 18px;
     left: 60px;
   }
-  
+
   .alin3 {
     position: absolute;
     top: 18px;
     left: 60px;
   }
-  
+
   .alin4 {
     position: absolute;
     top: 18px;
     left: 75px;
   }
-  
+
   .azul {
     background-color: #2f86d6;
     width: 20px;
@@ -639,13 +634,13 @@
     color: #2f86d6;
     margin-left: 100px;
   }
-  
+
   .cor {
     background-color: #2f86d61c;
   }
-  
+
   /* inicio da seção 4 */
-  
+
   .infor4 {
     width: 100%;
     height: 220px;
@@ -655,41 +650,41 @@
     justify-content: center;
     align-items: center;
   }
-  
+
   .nuu {
     width: 1200px;
     height: 130px;
     position: absolute;
   }
-  
+
   .infor4 > .nuu > h3 {
     text-align: center;
     font-size: 25px;
     color: black;
   }
-  
+
   .infor4 span {
     font-weight: bold;
     color: #2f86d6;
   }
-  
+
   .infor4 img {
     width: 50px;
     height: 50px;
     padding: 10px;
     margin-top: 5px;
   }
-  
+
   .infor4 img:hover {
     padding: 1px;
   }
-  
+
   .posit {
     margin-left: 500px;
   }
-  
+
   /* rodape */
-  
+
   .rodape {
     width: 100vw;
     height: 50px;
@@ -698,238 +693,235 @@
     font-size: 15px;
     color: #ffffff77;
     font-weight: 600px;
-  }}
-
+  }
+}
 
 /* DESKTOP ok*/
-@media (min-width: 1440px){
+@media (min-width: 1440px) {
+  body {
+    background-color: #fff;
+    overflow: auto scroll;
+  }
 
-body {
-  background-color: #fff;
-  overflow: auto scroll;
-}
+  /* seção topo */
 
-/* seção topo */
+  .topo {
+    width: 100vw;
+    height: 200px;
+    position: relative;
+    background-color: #2f86d6;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.342);
+  }
 
-.topo {
-  width: 100vw;
-  height: 200px;
-  position: relative;
-  background-color: #2f86d6;
-  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.342);
-}
+  .container {
+    width: 500px;
+    height: 200px;
+    position: absolute;
+    left: 250px;
+  }
 
-.container {
-  width: 500px;
-  height: 200px;
-  position: absolute;
-  left: 250px;
-}
+  .logo img {
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    left: 90px;
+    bottom: 50px;
+  }
 
-.logo img {
-  height: 100px;
-  width: 100px;
-  position: absolute;
-  left: 90px;
-  bottom: 50px;
-}
+  .logo h1,
+  p {
+    display: inline;
+    position: absolute;
+  }
 
-.logo h1,
-p {
-  display: inline;
-  position: absolute;
-}
+  .logo h1 {
+    bottom: 70px;
+    right: 100px;
+    font-size: 40px;
+    color: #000000;
+  }
 
-.logo h1 {
-  bottom: 70px;
-  right: 100px;
-  font-size: 40px;
-  color: #000000;
-}
+  .logo p {
+    bottom: 60px;
+    right: 82px;
+    color: #ffffff;
+  }
 
-.logo p {
-  bottom: 60px;
-  right: 82px;
-  color: #ffffff;
-}
+  .nav {
+    width: 510px;
+    height: 30px;
+    position: absolute;
+    right: 325px;
+    top: 85px;
+  }
 
-.nav {
-  width: 510px;
-  height: 30px;
-  position: absolute;
-  right: 325px;
-  top: 85px;
-}
+  .link1:hover {
+    text-decoration: underline;
+    color: #000000ad;
+  }
+  .link2:hover {
+    text-decoration: underline;
+    color: #000000ad;
+  }
+  .link3:hover {
+    text-decoration: underline;
+    color: #000000ad;
+  }
+  .link4:hover {
+    text-decoration: underline;
+    color: #000000ad;
+  }
 
-.link1:hover {
-  text-decoration: underline;
-  color: #000000ad;
-}
-.link2:hover {
-  text-decoration: underline;
-  color: #000000ad;
-}
-.link3:hover {
-  text-decoration: underline;
-  color: #000000ad;
-}
-.link4:hover {
-  text-decoration: underline;
-  color: #000000ad;
-}
+  .link1,
+  .link2,
+  .link3,
+  .link4 {
+    padding: 20px;
+    color: #ffffff;
+    font-weight: bold;
+  }
 
-.link1,
-.link2,
-.link3,
-.link4 {
-  padding: 20px;
-  color: #ffffff;
-  font-weight: bold;
-}
+  /*inicio  tabela 2 */
 
-/*inicio  tabela 2 */
+  .secao1 {
+    width: 100vw;
+    height: 1000px;
+    background-color: #f1f3f7;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-.secao1 {
-  width: 100vw;
-  height: 1000px;
-  background-color: #f1f3f7;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+  .tabela {
+    width: 1230px;
+    height: 600px;
+    box-shadow: 0px 0px 10px 4px #2f86d6;
+    border-collapse: collapse;
+  }
 
-.tabela {
-  width: 1230px;
-  height: 600px;
-  box-shadow: 0px 0px 10px 4px #2f86d6;
-  border-collapse: collapse;
-}
+  .tabela table,
+  td,
+  th,
+  tr {
+    border: 1px solid rgb(218, 218, 218, 0.55);
+  }
 
-.tabela table,
-td,
-th,
-tr {
-  border: 1px solid rgb(218, 218, 218, 0.55);
-}
+  table {
+    width: 1200px;
+    height: 600px;
+  }
 
-table {
-  width: 1200px;
-  height: 600px;
-}
+  th {
+    width: 100px;
+    height: 100px;
+    position: relative;
+  }
 
-th {
-  width: 100px;
-  height: 100px;
-  position: relative;
-}
+  tr {
+    width: 50px;
+    height: 50px;
+  }
 
-tr {
-  width: 50px;
-  height: 50px;
-}
+  .tabela h2 {
+    font-size: 35px;
+    margin-top: 25px;
+  }
 
+  .tabela p {
+    color: rgba(121, 120, 120, 0.55);
+  }
 
+  .alin1 {
+    position: absolute;
+    left: 90px;
+    top: 18px;
+  }
 
-.tabela h2 {
-  font-size: 35px;
-  margin-top: 25px;
-}
+  .alin2 {
+    position: absolute;
+    top: 18px;
+    left: 60px;
+  }
 
-.tabela p {
-  color: rgba(121, 120, 120, 0.55);
-}
+  .alin3 {
+    position: absolute;
+    top: 18px;
+    left: 60px;
+  }
 
-.alin1 {
-  position: absolute;
-  left: 90px;
-  top: 18px;
-}
+  .alin4 {
+    position: absolute;
+    top: 18px;
+    left: 75px;
+  }
 
-.alin2 {
-  position: absolute;
-  top: 18px;
-  left: 60px;
-}
+  .azul {
+    background-color: #2f86d6;
+    width: 20px;
+    height: 20px;
+    border-radius: 100px;
+    color: #2f86d6;
+    margin-left: 100px;
+  }
 
-.alin3 {
-  position: absolute;
-  top: 18px;
-  left: 60px;
-}
+  .cor {
+    background-color: #2f86d61c;
+  }
 
-.alin4 {
-  position: absolute;
-  top: 18px;
-  left: 75px;
-}
+  /* inicio da seção 4 */
 
-.azul {
-  background-color: #2f86d6;
-  width: 20px;
-  height: 20px;
-  border-radius: 100px;
-  color: #2f86d6;
-  margin-left: 100px;
-}
+  .infor4 {
+    width: 100%;
+    height: 220px;
+    background-color: #ffffff;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-.cor {
-  background-color: #2f86d61c;
-}
+  .nuu {
+    width: 1200px;
+    height: 130px;
+    position: absolute;
+  }
 
-/* inicio da seção 4 */
+  .infor4 > .nuu > h3 {
+    text-align: center;
+    font-size: 25px;
+    color: black;
+  }
 
-.infor4 {
-  width: 100%;
-  height: 220px;
-  background-color: #ffffff;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+  .infor4 span {
+    font-weight: bold;
+    color: #2f86d6;
+  }
 
-.nuu {
-  width: 1200px;
-  height: 130px;
-  position: absolute;
-}
+  .infor4 img {
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    margin-top: 5px;
+  }
 
-.infor4 > .nuu > h3 {
-  text-align: center;
-  font-size: 25px;
-  color: black;
-}
+  .infor4 img:hover {
+    padding: 1px;
+  }
 
-.infor4 span {
-  font-weight: bold;
-  color: #2f86d6;
-}
+  .posit {
+    margin-left: 500px;
+  }
 
-.infor4 img {
-  width: 50px;
-  height: 50px;
-  padding: 10px;
-  margin-top: 5px;
-}
+  /* rodape */
 
-.infor4 img:hover {
-  padding: 1px;
-}
-
-.posit {
-  margin-left: 500px;
-}
-
-/* rodape */
-
-.rodape {
-  width: 100vw;
-  height: 50px;
-  padding: 15px 0px 10px 540px;
-  background-color: #2f86d6;
-  font-size: 15px;
-  color: #ffffff77;
-  font-weight: 600px;
-}
+  .rodape {
+    width: 100vw;
+    height: 50px;
+    padding: 15px 0px 10px 540px;
+    background-color: #2f86d6;
+    font-size: 15px;
+    color: #ffffff77;
+    font-weight: 600px;
+  }
 }
