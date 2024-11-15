@@ -102,7 +102,7 @@ p {
 }
 
 .tabela {
-  width: 1200px;
+  width: 1230px;
   height: 600px;
   box-shadow: 0px 0px 10px 4px #2f86d6;
   border-collapse: collapse;
@@ -131,6 +131,8 @@ tr {
   height: 50px;
 }
 
+
+
 .tabela h2 {
   font-size: 35px;
   margin-top: 25px;
@@ -142,7 +144,7 @@ tr {
 
 .alin1 {
   position: absolute;
-  left: 85px;
+  left: 90px;
   top: 18px;
 }
 
@@ -155,19 +157,19 @@ tr {
 .alin3 {
   position: absolute;
   top: 18px;
-  left: 65px;
+  left: 60px;
 }
 
 .alin4 {
   position: absolute;
   top: 18px;
-  left: 78px;
+  left: 75px;
 }
 
 .azul {
   background-color: #2f86d6;
-  width: 30px;
-  height: 30px;
+  width: 20px;
+  height: 20px;
   border-radius: 100px;
   color: #2f86d6;
   margin-left: 100px;
