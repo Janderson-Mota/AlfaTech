@@ -10,7 +10,7 @@
 @media (min-width: 425px) and (max-width: 767px) {
   body {
     background-color: #fff;
-    overflow: auto scroll;
+    overflow-x: hidden;
   }
 
   /* seção topo */
@@ -334,12 +334,13 @@
 
   .p1 {
     position: absolute;
-    left: 45px;
+    left: 5px;
     top: 240px;
+    
   }
   .p2 {
     position: absolute;
-    left: 315px;
+    left: 10px;
     top: 240px;
   }
 
@@ -472,13 +473,13 @@
 @media (min-width: 768px) and (max-width: 1023px) {
   body {
     background-color: #fff;
-    overflow: auto scroll;
+    overflow-x: hidden;
   }
 
   /* seção topo */
 
   .topo {
-    width: 100vw;
+    width: 100%;
     height: 200px;
     position: relative;
   }
@@ -554,7 +555,7 @@
 
   /* seção banner */
   .banner {
-    width: 100vw;
+    width: 100%;
     height: 500px;
     background-color: #2f86d6;
     position: relative;
@@ -609,7 +610,7 @@
   /* inicio da seção anucio1 */
 
   .anuncio1 {
-    width: 100vw;
+    width: 100%;
     height: 100px;
     position: relative;
     background-color: #233032;
@@ -670,7 +671,7 @@
   /* seção informação */
 
   .informacao {
-    width: 100vw;
+    width: 100%;
     height: 500px;
     background-color: #fff;
     position: relative;
@@ -737,7 +738,7 @@
   /* inicio da seção tabela */
 
   .planos {
-    width: 100vw;
+    width: 100%;
     height: 850px;
     background-color: #f1f3f7;
     position: relative;
@@ -797,24 +798,28 @@
 
   .p1 {
     position: absolute;
-    left: 45px;
+    left: 30px;
     top: 240px;
+    font-size: 11px;
   }
   .p2 {
     position: absolute;
-    left: 315px;
+    left: 215px;
     top: 240px;
+    font-size: 11px;
   }
 
   .p3 {
     position: absolute;
     left: 650px;
     top: 240px;
+    font-size: 11px;
   }
   .p4 {
     position: absolute;
-    left: 910px;
+    left: 420px;
     top: 240px;
+    font-size: 11px;
   }
 
   .color {
@@ -824,7 +829,7 @@
   /* seção anucio 2 */
 
   .anuncio2 {
-    width: 100vw;
+    width: 100%;
     height: 100px;
     position: relative;
     background-color: #233032;
@@ -921,7 +926,7 @@
   /* rodape */
 
   .rodape {
-    width: 100vw;
+    width: 100%;
     height: 50px;
     padding: 15px 0px 10px 100px;
     background-color: #2f86d6;
@@ -935,7 +940,7 @@
 @media (min-width: 1024px) and (max-width: 1439px) {
   body {
     background-color: #fff;
-    overflow: auto scroll;
+    overflow-x: hidden;
   }
 
   /* seção topo */
@@ -1396,7 +1401,7 @@
 @media (min-width: 1440px) {
   body {
     background-color: #fff;
-    overflow: auto scroll;
+    overflow-x: hidden;
   }
 
   /* seção topo */
