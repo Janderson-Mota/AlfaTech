@@ -566,7 +566,7 @@
     position: relative;
     top: 100px;
     left: 100px;
-    border: 1px solid #233032;
+
   }
 
   .geral img {
@@ -590,19 +590,20 @@
   .inicio {
    
     position: absolute;
-    top: 20px;
+    top: 30px;
   }
 
   .text1 h2{
-    font-size: 25px;
+    font-size: 30px;
     position: absolute;
     top: 60px;
+    line-height: 35px;
     
   }
 
   .fim {
     position: absolute;
-    top: 150px;
+    top: 140px;
   }
 
   /* inicio da seção anucio1 */
@@ -620,7 +621,7 @@
     width: 600px;
     position: absolute;
     top: 10px;
-    left: 350px;
+    left: 100px;
   }
 
   .anu1 h3 {
@@ -638,7 +639,7 @@
     height: 80px;
 
     position: absolute;
-    right: 350px;
+    right: 100px;
     top: 10px;
   }
 
@@ -670,34 +671,33 @@
 
   .informacao {
     width: 100vw;
-    height: 600px;
+    height: 500px;
     background-color: #fff;
     position: relative;
   }
 
   .infor {
-    width: 1155px;
-    height: 500px;
+    width: 820px;
+    height: 430px;
     position: absolute;
-    top: 85px;
-    left: 380px;
-
+    top: 55px;
+    left: 100px;
     text-align: center;
   }
 
   .infor1 img,
   .infor2 img,
   .infor3 img {
-    width: 200px;
-    height: 200px;
-    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+    margin-top: 5px;
   }
 
   .infor1,
   .infor2,
   .infor3 {
     height: 370px;
-    width: 350px;
+    width: 240px;
     padding: 5px;
     position: absolute;
     border-radius: 20px;
@@ -708,7 +708,7 @@
     left: 25px;
   }
   .infor2 {
-    right: 400px;
+    right: 275px;
   }
   .infor3 {
     right: 25px;
@@ -731,7 +731,7 @@
     position: absolute;
     left: 10px;
     right: 10px;
-    bottom: 65px;
+    top: 160px;
   }
 
   /* inicio da seção tabela */
@@ -745,10 +745,10 @@
   }
 
   .tabela {
-    width: 1200px;
+    width: 820px;
     height: 600px;
     position: absolute;
-    left: 370px;
+    left: 100px;
     bottom: 80px;
     box-shadow: 0px 0px 10px 4px #2f86d6;
   }
@@ -762,10 +762,10 @@
   }
 
   .planos h2 {
-    font-size: 30px;
+    font-size: 26px;
     position: absolute;
     top: 70px;
-    left: 515px;
+    left: 110px;
   }
 
   .planos span {
@@ -781,7 +781,7 @@
   }
 
   table {
-    width: 1200px;
+    width: 820px;
     height: 600px;
   }
 
@@ -835,7 +835,7 @@
     width: 600px;
     position: absolute;
     top: 10px;
-    left: 360px;
+    left: 100px;
   }
   .anu2 h3 {
     font-size: 22px;
@@ -845,7 +845,7 @@
   .navanu2 {
     width: 200px;
     height: 80px;
-    right: 350px;
+    right: 100px;
     top: 10px;
     position: absolute;
   }
@@ -878,7 +878,7 @@
 
   .infor4 {
     width: 100%;
-    height: 220px;
+    height: 190px;
     background-color: #ffffff;
     position: relative;
     display: flex;
@@ -888,13 +888,13 @@
 
   .nuu {
     width: 1200px;
-    height: 130px;
+    height: 120px;
     position: absolute;
   }
 
   .infor4 > .nuu > h3 {
     text-align: center;
-    font-size: 25px;
+    font-size: 20px;
     color: black;
   }
 
@@ -923,7 +923,7 @@
   .rodape {
     width: 100vw;
     height: 50px;
-    padding: 15px 0px 10px 540px;
+    padding: 15px 0px 10px 100px;
     background-color: #2f86d6;
     font-size: 15px;
     color: #ffffff77;
