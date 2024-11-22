@@ -28,17 +28,17 @@ body{
   border: 1px solid black;
   display: flex;
   position: relative;
+  align-items: center;
+  justify-content: space-around;
  
 }
 
 .conteiner-logo{
 
-  width: 200px;
+  width: 10%;
   height: 70%;
   overflow-y: hidden;
-  position: absolute;
-  left: 30px;
-
+  flex: 0 1 200px;
 
 }
 
@@ -48,6 +48,12 @@ body{
   height: 100%;
 }
 
+.nav{
+
+  width: 100px;
+  height: 70%;
+  flex: 0 1 200px;
+}
 
 
 
