@@ -15,91 +15,9 @@
 #233032
 #2f86d6 */
 
-/* cabeçario da página */
-
-.box-topo{
-
-background-color: #fff;
-
-}
-
-.reutilizavel{
-
-  max-width: 1440px;
-  padding: 0 5%;
-  margin: 0 auto;
-}
-
-.nav{
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-}
-
-.logo{
- 
-width: 250px;
-height: 60px;
-overflow-y: hidden;
-
-}
-
-.logo img {
-  width: 100%;
-  height: 100%;
- 
-}
-
-ul{
-  display: flex;
-  justify-items: center;
-}
-
-li{
-
-  margin: 0 35px;
-  font-size: 15px;
-}
-
-li a{
-color: black;
-font-weight: 500;
-}
-
-li a:hover{
-
-  text-decoration: underline;
-  color: #2f86d6;
-} 
-
-/* box-banner */
-
-.box-banner{
-
-  background-color: #2f86d6;
-
-}
-
-.bannerr{
-
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: 10px ;
-
-}
-
-.box-texto{
-
-  font: 10px;
-}
 
 
-.conteiner-banner{
 
-
-}
 
 
 
@@ -139,18 +57,4 @@ li a:hover{
 
 /* NOTEBOOK */
 @media (min-width: 1024px) {}
-
-body{
-  background-color: white;
-}
-
-
-
-
-
-.box-anuncio{display: none;}
-.box-informacao{display: none;}
-.box-planos{display: none;}
-.box-contato{display: none;}
-.box-rodape{display: none;}
 
