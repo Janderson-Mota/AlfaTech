@@ -54,7 +54,7 @@ ul > li {
 }
 
 ul > li > a {
-  color: rgba(0, 0, 0, 0.712);
+  color: rgb(0, 0, 0);
   font-weight: 600;
 }
 
@@ -64,6 +64,8 @@ ul > li > a:hover {
   font-weight: 600;
 }
 /* end header */
+
+
 
 /* main */
 
@@ -76,8 +78,8 @@ main > .conteiner{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-top: 150px;
+  margin-bottom: 150px;
 }
 
 .main-text{
@@ -86,10 +88,58 @@ main > .conteiner{
   color: #fff;
 }
 
-.main-text h2{
-  font-size: 30px;
+.main-text > h2{
+  font-size: 35px;
   margin: 10px 0px;
+  text-shadow: 10px 10px 10px #30474b4f;
 }
+
+.main-text > p{
+  font-size: 20px;
+}
+
+.main-img > img{
+
+width: 110%;
+}
+
+/* menu */
+.menu-icon{
+  display: none;
+}
+/* end menu */
+
+/* media menu */
+@media (max-width: 1070px){
+
+.menu-icon{
+  display: flex;
+}
+
+.ul{
+
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: red;
+    top: 0px;
+    left: 100%;
+}
+
+.ul.ativo{
+  left: 0%;
+}
+
+
+}
+/* end media menu */
+
+
+
+
+
+
+
 
 
 
