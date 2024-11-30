@@ -106,6 +106,8 @@ width: 110%;
 /* menu */
 .menu-icon{
   display: none;
+  position: relative;
+  z-index: 10;
 }
 /* end menu */
 
@@ -117,21 +119,53 @@ width: 110%;
 }
 
 .ul{
-
     position: fixed;
     height: 100%;
     width: 100%;
-    background-color: red;
+    background-color: #2f86d6;
     top: 0px;
     left: 100%;
+    transition: 0.3s;
 }
+
+ul{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+#menu-apoio{
+  margin-top: 80%;
+}
+
+ul > li {
+  margin-top: 40px;
+}
+
+ul > li > a{
+color: #fff;
+}
+
+ul > li > a:hover {
+  color: #000000b9;
+  text-decoration: underline;
+  font-weight: 600;}
 
 .ul.ativo{
-  left: 0%;
+  left: 80%;
+  opacity: 95%;
+}
+
+.logo > img {
+  width: 80%;
+  height: 80%;
+}
+
 }
 
 
-}
+
+
 /* end media menu */
 
 
