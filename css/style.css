@@ -63,6 +63,13 @@ ul > li > a:hover {
   text-decoration: underline;
   font-weight: 600;
 }
+
+.material-symbols-outlined{
+  overflow-y: hidden;
+  visibility: hidden;
+}
+
+
 /* end header */
 
 
@@ -108,7 +115,15 @@ width: 110%;
   display: none;
   position: relative;
   z-index: 10;
+  padding: 1%;
+  
 }
+
+.menu-icon:hover{
+background-color: #2f85d61e;
+border-radius: 50px;
+}
+
 /* end menu */
 
 /* media menu */
@@ -120,7 +135,7 @@ width: 110%;
 
 .ul{
     position: fixed;
-    height: 100%;
+    height: 80%;
     width: 100%;
     background-color: #2f86d6;
     top: 0px;
@@ -132,33 +147,45 @@ ul{
   display: flex;
   align-items: flex-start;
   flex-direction: column;
-}
+  position: fixed;
 
-#menu-apoio{
-  margin-top: 80%;
-}
-
-ul > li {
-  margin-top: 40px;
 }
 
 ul > li > a{
 color: #fff;
+
 }
 
+/* estilização dos links e logica do menu */
 ul > li > a:hover {
   color: #000000b9;
   text-decoration: underline;
   font-weight: 600;}
 
 .ul.ativo{
-  left: 80%;
+ 
+  left: 70%;
   opacity: 95%;
 }
+/* end estilização e logica */
+
 
 .logo > img {
-  width: 80%;
-  height: 80%;
+  width: 60%;
+  height: 60%;
+}
+
+#apoio{
+  margin-top: 60%;
+}
+
+.material-symbols-outlined{
+  overflow-y: hidden;
+  visibility: visible;
+  margin-top: 20px;
+  color: #fff;
+  padding: 8px;
+  
 }
 
 }
