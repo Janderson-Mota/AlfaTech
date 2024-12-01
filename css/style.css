@@ -141,6 +141,7 @@ border-radius: 50px;
     top: 0px;
     left: 100%;
     transition: 0.3s;
+   
 }
 
 ul{
@@ -148,12 +149,11 @@ ul{
   align-items: flex-start;
   flex-direction: column;
   position: fixed;
-
+  overflow-y: hidden;
 }
 
 ul > li > a{
 color: #fff;
-
 }
 
 /* estilização dos links e logica do menu */
@@ -163,7 +163,6 @@ ul > li > a:hover {
   font-weight: 600;}
 
 .ul.ativo{
- 
   left: 70%;
   opacity: 95%;
 }
@@ -175,18 +174,31 @@ ul > li > a:hover {
   height: 60%;
 }
 
+ul > li{
+
+  padding-top: 10px;
+  padding-left: 50px;
+  
+}
+
 #apoio{
   margin-top: 60%;
+ 
 }
 
 .material-symbols-outlined{
+
   overflow-y: hidden;
   visibility: visible;
-  margin-top: 20px;
   color: #fff;
-  padding: 8px;
+  padding-right: 5px;
+  position: absolute;
+  left: 50px;
   
 }
+
+
+
 
 }
 
