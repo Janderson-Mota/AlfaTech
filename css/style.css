@@ -106,7 +106,6 @@ main > .conteiner{
 }
 
 .main-img > img{
-
 width: 110%;
 }
 
@@ -194,17 +193,40 @@ ul > li{
   padding-right: 5px;
   position: absolute;
   left: 50px;
-  
+}
+
+.material-symbols-outlined:hover{
+  color: #000000b9;
+  text-decoration: underline;
+  font-weight: 600;
+ 
+}
+
+main > .conteiner{
+  flex-direction: column;
+  margin-top: 90px;
+ 
+}
+main > .conteiner > .main-text{
+  width: 80%;
+  text-align: center;
+}
+main > .conteiner > .main-text > h2{
+  font-size: 35px;
+
+}
+
+main > .conteiner > .main-text > p{
+  font-size: 18px;
+  margin: 0px 50px;
 }
 
 
-
-
+main > .conteiner > .main-img{
+  width: 70%;
 }
 
-
-
-
+}
 /* end media menu */
 
 
