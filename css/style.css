@@ -54,7 +54,7 @@ ul > li {
 }
 
 ul > li > a {
-  color: rgb(0, 0, 0);
+  color:  #233032;
   font-weight: 600;
 }
 
@@ -72,8 +72,6 @@ ul > li > a:hover {
 
 /* end header */
 
-
-
 /* main */
 
 main{
@@ -85,8 +83,8 @@ main > .conteiner{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin-top: 150px;
-  margin-bottom: 150px;
+  margin-top: 163px;
+  margin-bottom: 163px;
 }
 
 .main-text{
@@ -111,7 +109,7 @@ width: 110%;
 
 /* section 1 */
 
-section{ 
+.ONE{ 
   background-color: #233032;
   color: #fff;
 }
@@ -130,18 +128,120 @@ section > .conteiner > .box-button{
   display: flex;
   padding: 10px;
   background-color: #2f86d6;
-  border-radius: 12px;
+  border-radius: 8px;
 }
 
-.box-button img{
+.box-button > img{
   width: 20px;
   height: 20px;
 }
 
-.box-button a{
+.box-button > a{
   color: #fff;
   margin-left: 10px;
 }
+/* end section 1 */
+
+/* section 2 */
+
+.TWO{
+  background-color: #fff;
+  color:#233032;
+}
+
+.TWO> .conteiner{
+ display: flex;
+ flex-direction: column;
+
+}
+
+.box-text2 {
+  text-align: center;
+  margin: 50px auto;
+}
+
+span {
+  color: #2f86d6;
+}
+
+/* cards */
+
+.box-card{
+
+width: 95%;
+height: 100%;
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+text-align: center;
+margin-bottom: 50px;
+}
+
+.card{
+
+margin: 0px 10px;
+box-shadow: 0px 0px 10px 1px #2f85d683;
+}
+
+.card:hover{
+  padding: 2%;
+  transition: 0.5s;
+}
+
+.card > img{
+  width: 200px;
+  padding: 10px;
+}
+
+.card > h3{
+  margin-bottom: 5px;
+}
+
+.card > p{
+  padding-bottom: 10px;
+  margin: 0px 10px;
+  font-size: 15px;
+}
+
+/* section 3 */
+.TREE{
+  background-color: #f1f3f7;
+}
+
+
+.TREE > .conteiner{
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.box-text3 {
+  text-align: center;
+  margin: 50px auto;
+}
+
+/* tabela */
+/*  end tabela */
+
+
+
+/* end section 3 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -158,7 +258,6 @@ section > .conteiner > .box-button{
 background-color: #2f85d61e;
 border-radius: 50px;
 }
-
 /* end menu */
 
 /* media menu */
