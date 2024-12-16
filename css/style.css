@@ -462,7 +462,12 @@ footer .conteiner{
 
 
 /* CELULARES */
-@media (max-width: 425px) {
+@media (min-width: 425px) and (max-width: 750px) {
+
+header{
+  background-color: red;
+}
+
 
 }
 
