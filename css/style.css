@@ -549,26 +549,62 @@ footer p {
     opacity: 95%;
   }
 
-  
-  section > .conteiner > .box-button{
+
+
+
+  main > .conteiner{
     display: flex;
-    padding: 10px;
-    background-color: #2f86d6;
-    border-radius: 8px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
+
+  main > .conteiner > .main-text > h2{
+   
+    font-size: 17px;
+    margin: 10px 0px;
+}
+
+    main > .conteiner > .main-text > p {
+        font-size: 11px;
+        margin: auto 10px;
+
+    
+    }
   
-  
+
+    section > .conteiner > .box-button{
+      display: flex;
+      padding: 1px;
+      background-color: #2f86d6;
+      border-radius: 8px;
+    }
+    
+    
   .box-button > img{
     width: 15px;
     height: 15px;
   }
+    
+    .box-button > a{
+      color: #fff;
+      margin-left: 10px;
+    }
+
+  .ONE .box-button p{
+    font-size: 10px;
+  }
   
-  .box-button > a{
-    color: #fff;
-    margin-left: 10px;
+
+  .ONE .box-anuncio h3{
+    font-size: 12px;
   }
 
-  .box-button
-  
+  .ONE .box-anuncio p{
+    font-size: 10px;
+  }
+
+
 
 }
