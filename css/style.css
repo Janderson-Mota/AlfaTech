@@ -461,16 +461,6 @@ footer .conteiner{
 /* end footer */
 
 
-/* CELULARES */
-@media (min-width: 425px) and (max-width: 750px) {
-
-header{
-  background-color: red;
-}
-
-
-}
-
 /* TABLET */
 @media (max-width: 768px) {
 
@@ -548,5 +538,37 @@ footer p {
   opacity: 95%;
 }
 
+
+}
+
+/* CELULARES */
+@media (min-width: 425px) and (max-width: 750px) {
+ 
+  .ul.ativo{
+    left: 50%;
+    opacity: 95%;
+  }
+
+  
+  section > .conteiner > .box-button{
+    display: flex;
+    padding: 10px;
+    background-color: #2f86d6;
+    border-radius: 8px;
+  }
+  
+  
+  .box-button > img{
+    width: 15px;
+    height: 15px;
+  }
+  
+  .box-button > a{
+    color: #fff;
+    margin-left: 10px;
+  }
+
+  .box-button
+  
 
 }
