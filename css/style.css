@@ -288,7 +288,7 @@ th, td{
 }
 
 .ul{
-    position: fixed;
+   
     height: 80%;
     width: 100%;
     background-color: #2f86d6;
@@ -302,7 +302,7 @@ ul{
   display: flex;
   align-items: flex-start;
   flex-direction: column;
-  position: fixed;
+  position: absolute;
   overflow-y: hidden;
 }
 
