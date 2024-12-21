@@ -19,6 +19,7 @@
 
 body {
   background-color: #fff;
+
 }
 
 /* class reutilizavel */
@@ -290,11 +291,12 @@ th, td{
 .ul{
    
     height: 80%;
-    width: 100%;
+    width: 30%;
     background-color: #2f86d6;
     top: 0px;
     left: 100%;
     transition: 0.3s;
+   
    
 }
 
@@ -534,7 +536,7 @@ footer p {
   font-size: 10px;
 }
 .ul.ativo{
-  left: 60%;
+  left: 70%;
   opacity: 95%;
 }
 
@@ -545,7 +547,8 @@ footer p {
 @media (min-width: 425px) and (max-width: 750px) {
  
   .ul.ativo{
-    left: 50%;
+    width: 40%;
+    left: 60%;
     opacity: 95%;
   }
 
@@ -607,4 +610,27 @@ footer p {
 
 
 
+}
+
+
+/* CELULARES MEDIANOS */
+@media (min-width: 430px) and (max-width: 632px) {
+ 
+  .ul.ativo{
+    width: 50%;
+    left: 50%;
+    opacity: 95%;
+  }
+}
+
+
+
+/* CELULARES MENORES */
+@media (min-width: 400px) and (max-width: 429px) {
+ 
+  .ul.ativo{
+    width: 60%;
+    left: 40%;
+    opacity: 95%;
+  }
 }
