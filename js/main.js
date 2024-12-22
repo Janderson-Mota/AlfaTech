@@ -8,6 +8,7 @@ if(ul.classList.contains('ativo')){
  ul.classList.remove('ativo');
 document.querySelector('.menu-icon img').src = '../img/menu.png';
 
+
 }
 
 else{
