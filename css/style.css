@@ -64,9 +64,9 @@ ul > li > a:hover {
   font-weight: 600;
 }
 
-.material-symbols-outlined {
+.icons-nav{
   overflow-y: hidden;
-  visibility: hidden;
+  display: none ;
 }
 
 /* end header */
@@ -187,10 +187,11 @@ span {
 .card {
   margin: 0px 10px;
   box-shadow: 0px 0px 10px 1px #2f85d683;
+  transition: 1s;
 }
 
 .card:hover {
-  padding: 2%;
+  padding: 0% 2%;
   transition: 1s;
 }
 
@@ -331,28 +332,35 @@ footer .conteiner {
 .autor p {
   font-size: 13px;
 }
-
 /* end footer */
 
 /* media menu e organização de loyaut após o menu */
 @media (max-width: 1070px) {
+  
   .menu-icon {
     display: flex;
   }
 
+  .icons-nav{
+    display: flex;
+    width: 40px;
+    height: 30px;
+    padding-right: 10px;
+  }
+
   .ul {
-    height: 80%;
-    width: 30%;
+    height: 50%;
+    width: 100%;
     background-color: #2f86d6;
     top: 0px;
     left: 100%;
     display: none;
-  
   }
 
   ul {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
     position: absolute;
     overflow-y: hidden;
@@ -360,9 +368,9 @@ footer .conteiner {
 
   ul > li > a {
     color: #fff;
+    display: flex;
   }
 
-  /* estilização dos links e logica do menu */
   ul li a:hover {
     color: #000000b9;
     text-decoration: underline;
@@ -370,13 +378,12 @@ footer .conteiner {
   }
 
   .ul.ativo {
-    left: 70%;
-    opacity: 95%;
-    display: block;
-  
+    display: flex;
+    left: 0%;
+    box-shadow: 0px 0px 10px 1px #2330323d;
+    opacity: 95%; 
     
   }
-  /* end estilização e logica */
 
   .logo img {
     width: 80%;
@@ -384,27 +391,12 @@ footer .conteiner {
   }
 
   ul > li {
-    padding-top: 10px;
-    padding-left: 50px;
-  }
-
-  #apoio {
-    margin-top: 60%;
-  }
-
-  .material-symbols-outlined {
-    overflow-y: hidden;
-    visibility: visible;
-    color: #fff;
-    padding-right: 5px;
-    position: absolute;
-    left: 50px;
-  }
-
-  .material-symbols-outlined:hover {
-    color: #000000b9;
-    text-decoration: underline;
-    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    margin: 5px 0px;
+    padding: 10px 50px;
+    width: 500px;
+    box-shadow: 0px 0px 10px 1px #ffffff38 inset;
   }
 
   main > .conteiner {
