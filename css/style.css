@@ -281,116 +281,6 @@ th, td{
 }
 
 /* end menu */
-/* media menu e organização de loyaut após o menu */
-@media (max-width: 1070px){
-
-.menu-icon{
-  display: flex;
-}
-
-.ul{
-   
-    height: 80%;
-    width: 30%;
-    background-color: #2f86d6;
-    top: 0px;
-    left: 100%;
-    transition: 0.3s;
-   
-   
-}
-
-ul{
-  display: flex;
-  align-items: flex-start;
-  flex-direction: column;
-  position: absolute;
-  overflow-y: hidden;
-}
-
-ul > li > a{
-color: #fff;
-}
-
-/* estilização dos links e logica do menu */
-ul li a:hover {
-  color: #000000b9;
-  text-decoration: underline;
-  font-weight: 600;}
-
-.ul.ativo{
-  left: 70%;
-  opacity: 95%;
-}
-/* end estilização e logica */
-
-
-.logo img {
-  width: 80%;
-  height: 80%;
-}
-
-ul > li{
-
-  padding-top: 10px;
-  padding-left: 50px;
-  
-}
-
-#apoio{
-  margin-top: 60%;
- 
-}
-
-.material-symbols-outlined{
-
-  overflow-y: hidden;
-  visibility: visible;
-  color: #fff;
-  padding-right: 5px;
-  position: absolute;
-  left: 50px;
-}
-
-.material-symbols-outlined:hover{
-  color: #000000b9;
-  text-decoration: underline;
-  font-weight: 600;
- 
-}
-
-main > .conteiner{
-  flex-direction: column;
-  margin-top: 90px;
-  margin-bottom: 40px;
- 
-}
-main > .conteiner > .main-text{
-  width: 80%;
-  text-align: center;
-}
-main > .conteiner > .main-text > h2{
-  font-size: 25px;
-
-}
-
-main > .conteiner > .main-text > p{
-  font-size: 15px;
-  margin: 0px 50px;
-}
-
-
-main > .conteiner > .main-img{
-  width: 70%;
-}
-
-.contato h2 {
-  font-size: 17px;
-}
-
-}
-/* end media menu */
-
 
 /* section 4 */
 .FOUR{ 
@@ -543,6 +433,116 @@ footer p {
 
 }
 
+/* media menu e organização de loyaut após o menu */
+@media (max-width: 1070px){
+
+  .menu-icon{
+    display: flex;
+  }
+  
+  .ul{
+     
+      height: 80%;
+      width: 30%;
+      background-color: #2f86d6;
+      top: 0px;
+      left: 100%;
+      transition: 0.3s;
+     
+     
+  }
+  
+  ul{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    position: absolute;
+    overflow-y: hidden;
+  }
+  
+  ul > li > a{
+  color: #fff;
+  }
+  
+  /* estilização dos links e logica do menu */
+  ul li a:hover {
+    color: #000000b9;
+    text-decoration: underline;
+    font-weight: 600;}
+  
+  .ul.ativo{
+    left: 70%;
+    opacity: 95%;
+  }
+  /* end estilização e logica */
+  
+  
+  .logo img {
+    width: 80%;
+    height: 80%;
+  }
+  
+  ul > li{
+  
+    padding-top: 10px;
+    padding-left: 50px;
+    
+  }
+  
+  #apoio{
+    margin-top: 60%;
+   
+  }
+  
+  .material-symbols-outlined{
+  
+    overflow-y: hidden;
+    visibility: visible;
+    color: #fff;
+    padding-right: 5px;
+    position: absolute;
+    left: 50px;
+  }
+  
+  .material-symbols-outlined:hover{
+    color: #000000b9;
+    text-decoration: underline;
+    font-weight: 600;
+   
+  }
+  
+  main > .conteiner{
+    flex-direction: column;
+    margin-top: 90px;
+    margin-bottom: 40px;
+   
+  }
+  main > .conteiner > .main-text{
+    width: 80%;
+    text-align: center;
+  }
+  main > .conteiner > .main-text > h2{
+    font-size: 25px;
+  
+  }
+  
+  main > .conteiner > .main-text > p{
+    font-size: 15px;
+    margin: 0px 50px;
+  }
+  
+  
+  main > .conteiner > .main-img{
+    width: 70%;
+  }
+  
+  .contato h2 {
+    font-size: 17px;
+  }
+  
+  }
+  /* end media menu */
+  
 /* CELULARES */
 @media (min-width: 425px) and (max-width: 750px) {
  
@@ -622,7 +622,6 @@ footer p {
     opacity: 95%;
   }
 }
-
 
 
 /* CELULARES MENORES */
