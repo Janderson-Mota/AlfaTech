@@ -42,6 +42,9 @@ nav {
 .logo > img {
   width: 100%;
   height: 100%;
+  position: relative;
+  z-index: 10;
+  padding: 1%;
 }
 
 ul {
@@ -343,8 +346,8 @@ footer .conteiner {
 
   .icons-nav{
     display: flex;
-    width: 40px;
-    height: 30px;
+    width: 35px;
+    height: 25px;
     padding-right: 10px;
   }
 
