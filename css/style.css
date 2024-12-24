@@ -297,8 +297,11 @@ td {
   flex-direction: column;
 }
 
-.contato {
+.contato{
   margin: 50px auto 15px auto;
+}
+.contato h2{
+  text-align: center;
 }
 
 .icones {
@@ -780,12 +783,11 @@ footer .conteiner {
 
   section > .conteiner > .box-button {
     display: flex;
-    padding: 1px;
+    padding: 7px;
     background-color: #2f86d6;
-    border-radius: 8px;
   }
 
-  .box-button > img {
+  .box-button img  {
     width: 15px;
     height: 15px;
   }
@@ -799,6 +801,10 @@ footer .conteiner {
     font-size: 10px;
   }
 
+  .FOUR .box-button p {
+    font-size: 10px;
+  }
+
   .ONE .box-anuncio h3 {
     font-size: 12px;
   }
@@ -806,6 +812,83 @@ footer .conteiner {
   .ONE .box-anuncio p {
     font-size: 10px;
   }
+
+  .FOUR .box-anuncio h3 {
+    font-size: 12px;
+  }
+
+  .FOUR .box-anuncio p {
+    font-size: 10px;
+  }
+
+  .contato h2{
+    text-align: center;
+    font-size: 13px;
+  }
+
+  .autor p{
+    font-size: 10px;
+  }
+
+  h2{
+    font-size: 15px;
+    text-align: center;
+  }
+
+/* tabela */
+
+.TREE  .conteiner {
+  display: flex;
+  flex-direction: row;
+  
+}
+
+table {
+  box-shadow: 0px 0px 10px 4px #2f86d6;
+  margin-bottom: 50px;
+  display: block;
+  overflow-x: scroll;
+  
+}
+
+
+thead h3 {
+  margin: 10px;
+ 
+}
+
+thead img {
+  width: 50%;
+  height: 50%;
+  
+}
+
+thead p {
+  margin: 10px 15px;
+  
+}
+
+tbody {
+  
+ 
+  font-size: 15px;
+ 
+}
+
+td {
+ padding: 5px 80px;
+}
+
+th,
+td {
+  border: 1px solid rgba(218, 218, 218, 0.089);
+  border-collapse: collapse;
+}
+
+
+
+
+
 }
 
 /* CELULARES MENORES */
@@ -822,7 +905,7 @@ footer .conteiner {
   }
 
   .ul {
-    height: 50%;
+    height: 60%;
     width: 100%;
     background-color: #2f86d6;
     top: 0px;
@@ -892,11 +975,25 @@ footer .conteiner {
     margin: auto 10px;
   }
 
+
+  section > .conteiner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+     margin: 10px 0px 15px 0px;
+     text-align: center;
+  }
+  
+  
+  section > .conteiner > .box-anuncio {
+    margin: 10px 0px;
+  }
+
   section > .conteiner > .box-button {
     display: flex;
-    padding: 1px;
+    padding: 7px;
     background-color: #2f86d6;
-    border-radius: 8px;
   }
 
   .box-button > img {
@@ -920,4 +1017,75 @@ footer .conteiner {
   .ONE .box-anuncio p {
     font-size: 10px;
   }
+ 
+  .FOUR .box-button p {
+    font-size: 10px;
+  }
+
+  .FOUR .box-anuncio h3 {
+    font-size: 12px;
+  }
+
+  .box-text2 h2{
+  font-size: 12px;
+}
+
+  .contato h2{
+    text-align: center;
+    font-size: 12px;
+  }
+
+  .autor p{
+    font-size: 10px;
+  }
+
+  h2{
+    font-size: 12px;
+    text-align: center;
+  }
+
+/* tabela */
+
+.TREE  .conteiner {
+  display: flex;
+  flex-direction: row;
+}
+
+table {
+  box-shadow: 0px 0px 10px 4px #2f86d6;
+  margin-bottom: 50px;
+  display: block;
+  overflow-x: scroll;
+}
+
+thead h3 {
+  margin: 10px;
+  font-size: 15px;
+}
+
+thead img {
+  width: 30%;
+  height: 30%;
+}
+
+thead p {
+  margin: 10px 15px;
+  font-size: 10px;
+}
+
+tbody {
+  font-size: 15px;
+}
+
+td {
+ padding: 5px 80px;
+ font-size: 10px;
+}
+
+th,
+td {
+  border: 1px solid #2f85d62a;
+  border-collapse: collapse;
+}
+
 }
