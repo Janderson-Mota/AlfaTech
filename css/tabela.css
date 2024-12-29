@@ -76,6 +76,121 @@ ul > li > a:hover {
 }
 /* end menu */
 
+
+/* main*/
+
+/* section 3 */
+main {
+  background-color: #2f85d6b7;
+}
+
+main > .conteiner {
+  display: flex;
+  flex-direction: column;
+}
+
+table {
+  background-color: #fff;
+  box-shadow: 0px 0px 10px 4px #00000049;;
+  margin: 50px auto;
+  text-align: center;
+}
+
+
+td {
+  padding: auto 50%;
+  width: 300px;
+}
+
+th,
+td {
+  border: 1px solid #2f85d61a;
+  border-collapse: collapse;
+}
+.azul {
+  background-color: #2f86d6;
+  width: 20px;
+  height: 20px;
+  border-radius: 100px;
+  color: #2f86d6;
+  margin-left: 100px;
+  overflow-y: hidden;
+}
+
+.cor {
+  background-color: #2f86d61c;
+}
+
+/*  end tabela */
+/* end main */
+
+/* section FIVE */
+.FIVE {
+  background-image: url(../img/fundo2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.FIVE .conteiner {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.contato{
+  margin: 50px auto 15px auto;
+}
+
+.contato h2{
+  text-align: center;
+}
+
+.icones {
+  margin-bottom: 50px;
+}
+
+.icones img {
+  width: 40px;
+  height: 40px;
+  margin: auto 8px;
+ 
+}
+
+.icones img:hover {
+  padding: 3px;
+}
+
+/* end section 5 */
+
+/* footer */
+
+footer {
+  background-color: #2f85d6b2;
+  color: #fff;
+}
+
+footer .conteiner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  text-align: center;
+}
+
+.autor {
+  margin: 10px auto;
+}
+
+.autor p {
+  font-size: 13px;
+}
+/* end footer */
+
+
+
+
+
 /* media menu e organização de loyaut após o menu */
 @media (max-width: 1070px) {
   
@@ -127,10 +242,8 @@ ul > li > a:hover {
     display: flex;
     left: 0%;
     box-shadow: 0px 0px 10px 1px #2330323d;
-   
     
   }
-
   .logo img {
     width: 80%;
     height: 80%;
@@ -144,93 +257,13 @@ ul > li > a:hover {
     width: 500px;
     box-shadow: 0px 0px 10px 1px #ffffff6b inset;
   }
-
-  main > .conteiner {
-    flex-direction: column;
-    margin-top: 90px;
-    margin-bottom: 40px;
-  }
-  main > .conteiner > .main-text {
-    width: 80%;
-    text-align: center;
-  }
-  main > .conteiner > .main-text > h2 {
-    font-size: 25px;
-  }
-
-  main > .conteiner > .main-text > p {
-    font-size: 15px;
-    margin: 0px 50px;
-  }
-
-  main > .conteiner > .main-img {
-    width: 70%;
-  }
-
-  .contato h2 {
-    font-size: 17px;
-  }
 }
+  
 /* end media menu */
 
 /* TABLET */
 @media (max-width: 768px) {
 
-  .ONE .box-anuncio h3 {
-    font-size: 15px;
-  }
-
-  .ONE .box-anuncio p {
-    font-size: 12px;
-  }
-
-  .FOUR .box-anuncio h3 {
-    font-size: 15px;
-  }
-
-  .FOUR .box-anuncio p {
-    font-size: 12px;
-  }
-
-  section > .conteiner > .box-button {
-    display: flex;
-    padding: 7px;
-    background-color: #2f86d6;
-    border-radius: 8px;
-  }
-
-  .box-button p {
-    font-size: 15px;
-  }
-
-  .box-button > img {
-    width: 20px;
-    height: 20px;
-  }
-
-  .box-button > a {
-    color: #fff;
-    margin-left: 10px;
-  }
-
-  h2 {
-    font-size: 20px;
-  }
-
-  .box-card {
-    flex-direction: column;
-    flex: auto;
-  }
-
-  .card {
-    margin: 10px 10px;
-    box-shadow: none;
-    box-shadow: 0px 0px 10px 1px #2f85d683;
-  }
-
-  .contato h2 {
-    font-size: 16px;
-  }
 
   .icones img {
     width: 30px;
