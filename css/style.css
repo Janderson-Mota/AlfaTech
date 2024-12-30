@@ -607,7 +607,7 @@ footer .conteiner {
     position: absolute;
     overflow-y: hidden;
     background-image: url(../img/fundo.png);
-    background-repeat: -norepeat;
+    background-repeat: no-repeat;
     background-size: contain;
     background-attachment: fixed;
   }

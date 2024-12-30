@@ -113,8 +113,8 @@ td {
   height: 20px;
   border-radius: 100px;
   color: #2f86d6;
-  margin-left: 100px;
-  overflow-y: hidden;
+  overflow-y: hidden; 
+  margin-left: 45%;
 }
 
 .cor {
@@ -154,8 +154,13 @@ td {
   width: 40px;
   height: 40px;
   margin: auto 8px;
- 
 }
+ 
+  span {
+    color: #2f86d6;
+  }
+  
+
 
 .icones img:hover {
   padding: 3px;
@@ -336,7 +341,7 @@ footer .conteiner {
     margin: 5px 0px;
     padding: 10px 50px;
     width: 500px;
-    box-shadow: 0px 0px 10px 1px #ffffff6b inset;
+    box-shadow: 0px 0px 10px 1px #ffffffbe inset;
   }
 }
 
@@ -372,7 +377,7 @@ footer .conteiner {
     position: absolute;
     overflow-y: hidden;
     background-image: url(../img/fundo.png);
-    background-repeat: -norepeat;
+    background-repeat: no-repeat;
     background-size: contain;
     background-attachment: fixed;
   }
@@ -393,7 +398,6 @@ footer .conteiner {
     left: 0%;
     box-shadow: 0px 0px 10px 1px #2330323d;
    
-    
   }
 
   .logo img {
@@ -414,8 +418,9 @@ footer .conteiner {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    overflow-x: scroll;
   }
 
   main > .conteiner > .main-text > h2 {
@@ -455,6 +460,14 @@ footer .conteiner {
   .FIVE .contato h2{
     text-align: center;
     font-size: 14px;
+  }
+  main > .conteiner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    overflow-x: scroll;
   }
 }
 /* end CELULARES */
@@ -532,8 +545,9 @@ footer .conteiner {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    overflow-x: scroll;
   }
 
   main > .conteiner > .main-text > h2 {
@@ -640,9 +654,6 @@ tbody {
  
 }
 
-td {
- padding: 5px 80px;
-}
 
 th,
 td {
@@ -726,8 +737,9 @@ td {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    overflow-x: scroll;
   }
 
   main > .conteiner > .main-text > h2 {
@@ -842,10 +854,6 @@ tbody {
   font-size: 15px;
 }
 
-td {
- padding: 5px 80px;
- font-size: 10px;
-}
 
 th,
 td {
