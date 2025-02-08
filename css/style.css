@@ -243,8 +243,8 @@ thead h3 {
 }
 
 thead img {
-  width: 50%;
-  height: 50%;
+  width: 100px;
+  height: 100px;
 }
 
 thead p {
@@ -838,8 +838,8 @@ footer .conteiner {
   }
 
   thead img {
-    width: 50%;
-    height: 50%;
+    width: 100px;
+    height: 100px;
   }
 
   thead p {
@@ -1031,8 +1031,8 @@ footer .conteiner {
   }
 
   thead img {
-    width: 30%;
-    height: 30%;
+    width: 80px;
+    height: 80px;
   }
 
   thead p {
